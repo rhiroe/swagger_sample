@@ -44,13 +44,13 @@ OpenAPIドキュメント。Yaml(もしくはJSON)でOpenAPIオブジェクト�
 | openapi      |                                         `string`                                          |  *  | OpenAPIのバージョン                                 |
 | info         |                                 [InfoObject](#InfoObject)                                 |  *  | メタデータ                                         |
 | servers      |                              [[ServerObject](#ServerObject)]                              |     | ターゲットホストのURL                                  |
-| paths        |                                [PathsObject](#PathsObject)                                |     | パスとリクエストパラメータとレスポンスパラメータの定義                   |
-| webhooks     | Map[`string`, [PathItemObject](#PathItemObject) or [ReferenceObject](#ReferenceObject)] ] |     | APIプロバイダからリクエストされるWebhookのリクエストパラメータとレスポンスの定義 |
+| paths        |                                [PathsObject](#PathsObject)                                |  *  | パスとリクエストパラメータとレスポンスパラメータの定義                   |
 | components   |                           [ComponentsObject](#ComponentsObject)                           |     | 何度も使うオブジェクトの切り出し                              |
 | security     |                 [[SecurityRequirementObject](#SecurityRequirementObject)]                 |     | API全体で使用するセキュリティ機構                            |
 | tags         |                                  [TagObject](#TagObject)                                  |     | メタデータを含むタグのリスト                                |
 | externalDocs |                [ExternalDocumentationObject](#ExternalDocumentationObject)                |     | 追加のメタデータ                                      |
   
+3.1.0からwebhooksフィールドが追加され、pathsフィールドが必須ではなくなるらしい。よく知らないので割愛。
 
 ### InfoObject
 
