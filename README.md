@@ -83,6 +83,8 @@ Swagger2.0とOpenAPI3.0.0で使用感が大きく変わるのでどちらを使�
 
 現在のOpenAPISpecをもとに、クライアントのソースコードを自動生成する
 
+(最後にUIと見比べながらschema.ymlをざっと見てみる)
+
 ## SwaggerUI
 
 ![](captures/7.png)
