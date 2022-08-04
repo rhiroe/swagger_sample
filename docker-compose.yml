@@ -4,12 +4,16 @@ services:
     image: swaggerapi/swagger-editor
     ports:
       - "3001:8080"
+    volumes:
+      - ./docs/api/openapi3/schema.yml:/schema.yml
+    environment:
+      SWAGGER_FILE: /schema.yml
   swagger-ui:
     image: swaggerapi/swagger-ui
     ports:
       - "3002:8080"
     volumes:
-      - ./docs/api/schema.yml:/schema.yml
+      - ./docs/api/openapi3/schema.yml:/schema.yml
     environment:
       SWAGGER_JSON: /schema.yml
   swagger-api:
@@ -18,4 +22,4 @@ services:
       - "3003:4010"
     command: mock -h 0.0.0.0 /schema.yml
     volumes:
-      - ./docs/api/schema.yml:/schema.yml
+      - ./docs/api/openapi3/schema.yml:/schema.yml
