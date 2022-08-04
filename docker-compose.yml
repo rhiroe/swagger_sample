@@ -15,7 +15,7 @@ services:
     volumes:
       - ./docs/api/openapi3/schema.yml:/schema.yml
     environment:
-      SWAGGER_JSON: /schema.yml
+      SWAGGER_YAML: /schema.yml
   swagger-api:
     image: stoplight/prism
     ports:
