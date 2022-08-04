@@ -41,7 +41,7 @@ Swagger2.0とOpenAPI3.0.0で使用感が大きく変わるのでどちらを使�
 ちなみにSwaggerとOpenAPIの関係性は
 
 1. Swaggerというフレームワークが元々あった
-2. SwaggerがLinux Foundationに寄贈され、新しくOpenAPI3としてリリースされた
+2. SwaggerがLinux Foundationに寄贈され、新しくOpenAPIとしてリリースされた
 
 みたいな感じ。
 
