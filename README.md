@@ -36,7 +36,7 @@ OpenAPISpecで書いた定義を食わせてモックサーバーを立ててく
 
 OpenAPI(Swagger)ドキュメント。Yaml(もしくはJSON)でOpenAPIObject(SwaggerObject)を定義する。実用的な話をすると、こんな説明を聞くより公式のサンプルをコピペすればなんとなくわかるので、必要なところを書き換える感じで誰でも書けます。
 一応以下で雑に説明する。詳しくは [ここ](https://github.com/OAI/OpenAPI-Specification/tree/main/versions) からドキュメントを読もう。
-Swagger2.0とOpenAPI3.0.0で使用感が大きく変わるのでどちらを使うかは要相談。特にこだわりがなければ新しいOpenAPI3でよい。
+Swagger2とOpenAPI3で使用感が大きく変わるのでどちらを使うかは要相談。特にこだわりがなければ新しいOpenAPI3でよい。
 
 ちなみにSwaggerとOpenAPIの関係性は
 
@@ -44,6 +44,12 @@ Swagger2.0とOpenAPI3.0.0で使用感が大きく変わるのでどちらを使�
 2. SwaggerがLinux Foundationに寄贈され、新しくOpenAPIとしてリリースされた
 
 みたいな感じ。
+
+---
+
+## SwaggerEditor SwaggerUI Prism をローカルホストで動かす
+
+API仕様書を外部サービスにアップロードするのもなんか気が引けるので、Dockerを使ってローカルで動かす。docker-compose.yml参照。
 
 ---
 
