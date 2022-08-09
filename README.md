@@ -149,7 +149,7 @@ components: > securitySchemes: > api_key:
 
 [committee](https://github.com/interagent/committee)を使ったAPI側のテストの紹介
 
-committeeを導入するとRSpecに`assert_response_schema_confirm`や`assert_request_schema_confirm`などのメソッドが生えるので、これを使ってレスポンスがOpenAPI定義に準拠しているかをチェックすることができる
+`Committee::Test::Methods`をincludeすると`assert_response_schema_confirm`や`assert_request_schema_confirm`などのメソッドが生えるので、これを使ってレスポンスがOpenAPI定義に準拠しているかをチェックすることができる
 
 committeeを利用する場合、テストにスキーマ定義が必要になるため、スキーマファイルをAPIのリポジトリに含めた方がやりやすい。
 
