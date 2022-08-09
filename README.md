@@ -147,7 +147,9 @@ components: > securitySchemes: > api_key:
 
 ## テスト
 
-[committee](https://github.com/interagent/committee)を使ったAPI側のテストの紹介
+実際のリクエストからレスポンスを検証する通常のテストの他に、「そもそもAPIのリクエストやレスポンスがOpenAPI定義に準拠しているの？」というのをテストしたいと思うだろう。
+
+そこで[committee](https://github.com/interagent/committee)を使ったAPI側のテストの紹介
 
 `Committee::Test::Methods`をincludeすると`assert_response_schema_confirm`や`assert_request_schema_confirm`などのメソッドが生えるので、これを使ってOpenAPI定義に準拠しているかをチェックすることができる
 
