@@ -25,10 +25,12 @@ OpenAPISpecで書いた仕様書を元にHTML形式でドキュメント化し�
 https://swagger.io/tools/swagger-codegen/
 
 OpenAPISpecで書いた定義をもとに、クライアント/サーバコードを自動生成するツール。
+主にモックサーバーを立てるときに使ったりするが、ソースコードを生成するだけでホスティングは自分でする必要がある。
 
 ### Prism
 
 OpenAPISpecで書いた定義を食わせてモックサーバーを立ててくれるツール。
+他にDockerImageで`swagger-codegen-cli`があるが、上記のようにこちらはDockerfileでホスティングを自分でする必要があり面倒なので、今回はこちらを採用。
 
 ---
 
