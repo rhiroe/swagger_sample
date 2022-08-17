@@ -57,6 +57,8 @@ API仕様書を外部サービスにアップロードするのもなんか気�
 
 ## SwaggerEditor
 
+<sub>:exclamation: VSCodeなら [SwaggerViewer](https://marketplace.visualstudio.com/items?itemName=Arjun.swagger-viewer) という超絶便利プラグインがあります。SwaggerEditorの代わりにこれを使おう。</sub>
+
 ![](captures/1.png)
 
 左がエディタ、右がUIのプレビューになっており、上にメニューバーがついている。
