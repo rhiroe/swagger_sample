@@ -107,6 +107,8 @@ Editorのプレビューの内容と同じ。OpenAPISpecの内容がUIで確認�
 
 localhost:3003にモックサーバーを立てているので、実際にリクエストを送ってみる。
 
+<sub>:exclamation: [postman](https://www.postman.com/)を使うともっと楽に検証できるぞ！</sub>
+
 ポイントは `-H 'api_key: special-key'` を付けて認証を突破すること(`special-key`でなくとも認証は突破できる)
 
 
