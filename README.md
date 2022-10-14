@@ -57,8 +57,8 @@ API仕様書を外部サービスにアップロードするのもなんか気�
 
 ## SwaggerEditor
 
-<sub>:exclamation: VSCodeなら [SwaggerViewer](https://marketplace.visualstudio.com/items?itemName=Arjun.swagger-viewer) という超絶便利プラグインがあります。SwaggerEditorの代わりにこれを使おう。</sub>
-<sub>RubyMineにも[SwaggerHub API Design by SmartBear](https://plugins.jetbrains.com/plugin/16926-swaggerhub-api-design-by-smartbear)という便利そうなプラグインがあった。</sub>
+<sub>:exclamation: VSCodeなら [Swagger Viewer](https://marketplace.visualstudio.com/items?itemName=Arjun.swagger-viewer) という超絶便利プラグインがあります。SwaggerEditorの代わりにこれを使おう。</sub>
+<sub>RubyMineにも[OpenAPI Editor](https://plugins.jetbrains.com/plugin/14837-openapi-swagger-editor)という便利そうなプラグインがあった。</sub>
 
 ![](captures/1.png)
 
